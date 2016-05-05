@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/MediaMath/oauth2"
+	"github.com/MediaMath/oauth2/internal"
+	"github.com/MediaMath/oauth2/jws"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
-	"golang.org/x/oauth2/jws"
 )
 
 var (
